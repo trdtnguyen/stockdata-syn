@@ -2,7 +2,7 @@
 Generate stock data with pre-defined patterns.
 
 ## Patterns
-Common patterns in stock market (read more)[https://optionalpha.com/13-stock-chart-patterns-that-you-cant-afford-to-forget-10585.html]:
+Common patterns in stock market ([more](https://optionalpha.com/13-stock-chart-patterns-that-you-cant-afford-to-forget-10585.html)):
 
 * **Double Top (dt)**: The M-like pattern with three peaks on top.
 * **Head and shouders top (hs)**: Look like the double top but the midle peak is higher than the left and the right
@@ -45,7 +45,8 @@ t' = t + rand() * (y3 - t)
 Step 3: Randomly choose between point A and point B to become the point C
 Step 4: Replace point P2 by point C
 
-### Picking M important points to form the pattern. Usually, M > N
+### Extracting important points
+Picking M important points to form the pattern. Usually, M > N
 
 Put all (N-1) * K points after time-warping scaling into a binary search tree ordered by the important degree of a point. The important degree of a point tell how significant it effect to the pattern. We compute the important degree by using vertical distance from a given point to the start point and the end point of the sequence.
 
