@@ -1,0 +1,49 @@
+
+////syn20
+//FOLDER_OUTPUT=syn20
+//K=4
+//NPIP=20
+//FILE_ID_NAME_MAPPING=syn20_ID_NAME.txt
+////syn30
+//FOLDER_OUTPUT=syn30
+//K=6
+//NPIP=30
+//FILE_ID_NAME_MAPPING=syn30_ID_NAME.txt
+////syn60
+//FOLDER_OUTPUT=syn60
+//K=12
+//NPIP=60
+//FILE_ID_NAME_MAPPING=syn60_ID_NAME.txt
+////syn60
+//FOLDER_OUTPUT=syn90
+//K=18
+//NPIP=90
+//FILE_ID_NAME_MAPPING=syn90_ID_NAME.txt
+FOLDER_OUTPUT=syn120
+K=25
+NPIP=120
+FILE_ID_NAME_MAPPING=syn120_ID_NAME.txt
+
+////////////////////////////////
+
+FOLDER_SEED=seed
+FOLDER_UNIFORM_SCALE=us
+FOLDER_TIMEWARPING_SCALE=ws
+FOLDER_PIP=pip
+FOLDER_NOISE_ADD=na
+
+N=200
+//period =20 => (0.9, 0.1, 0.2, mode 1)
+//period =30 => (0.9, 0.2, 0.4, mode 1)
+//period =60 => (0.9, 0.75, 1.95, mode 3)
+//period =90 => (0.9, 0.75, 1.95, mode 3)
+//period =120 => (0.9, 0.75, 2.95, mode 3)
+//last used: 0.5
+NOISE_P=0.9
+
+NOISE_RANGE1=0.75
+NOISE_RANGE2=2.95
+//last used: 2
+TW_MODE=3
+NSIM_POINT=30
+START_DATE=20200421
